@@ -13,5 +13,5 @@ RUN setx /M PATH "%PATH%;%ProgramFiles(x86)%\MSBUILD\14.0\bin"
 
 WORKDIR /app
 COPY . ./
-
+RUN echo %PATH%
 RUN ["msbuild.exe", "dotnetapp-4.6.2.csproj", "/p:Configuration=Release"]
