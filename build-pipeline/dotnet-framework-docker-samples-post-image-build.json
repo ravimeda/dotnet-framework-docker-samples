@@ -238,7 +238,7 @@
     "checkoutSubmodules": false
   },
   "processParameters": {},
-  "quality": 1,
+  "quality": "definition",
   "authoredBy": {
     "id": "6af2d883-13d1-4b15-8765-c98f7a53b9e0",
     "displayName": "Rakesh Ranjan Singh",
